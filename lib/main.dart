@@ -45,11 +45,14 @@ class _MyAppState extends State<MyApp> {
                       return Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: ListTile(
-                          leading: Icon(Icons.add),
+                          leading: const Icon(Icons.add),
                           title: Center(
-                            child: Text(
-                                '${activities[index].name} | ${activities[index].quantity} vezes'),
+                            child: Text('${activities[index].name}'),
                           ),
+                          subtitle: Center(
+                            child: Text('${activities[index].quantity} vezes'),
+                          ),
+                          trailing: const Icon(Icons.remove),
                         ),
                       );
                     });
