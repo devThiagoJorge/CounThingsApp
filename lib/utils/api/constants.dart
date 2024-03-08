@@ -1,3 +1,3 @@
 class ConstantsApi {
-  static String urlApi = "https://lazy-nails-cut.loca.lt";
+  static String urlApi = "https://red-oranges-suffer.loca.lt/";
 }
